@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="uyap-plarralde.local" name="racetrack.UserSpec" tests="1" time="0.08" timestamp="2015-08-17T18:47:58">
+  <properties />
+  <testcase classname="racetrack.UserSpec" name="test something" time="0.077">
+    <error message="Method on class [racetrack.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Method on class [racetrack.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at racetrack.UserSpec.testSimpleConstraints(UserSpec.groovy:34)
+	at racetrack.UserSpec.test something(UserSpec.groovy:22)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from test something--
+]]></system-out>
+  <system-err><![CDATA[--Output from test something--
+]]></system-err>
+</testsuite>

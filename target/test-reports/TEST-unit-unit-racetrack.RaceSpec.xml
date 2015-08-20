@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="uyap-plarralde.local" name="racetrack.RaceSpec" tests="1" time="2.419" timestamp="2015-08-17T18:47:53">
+  <properties />
+  <testcase classname="racetrack.RaceSpec" name="testInMiles" time="2.348" />
+  <system-out><![CDATA[--Output from testInMiles--
+]]></system-out>
+  <system-err><![CDATA[--Output from testInMiles--
+]]></system-err>
+</testsuite>

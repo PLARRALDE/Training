@@ -1,0 +1,16 @@
+Testsuite: racetrack.UserSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0,08 sec
+------------- Standard Output ---------------
+--Output from test something--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test something--
+------------- ---------------- ---------------
+
+Testcase: test something took 0,076 sec
+	Caused an ERROR
+Method on class [racetrack.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+java.lang.IllegalStateException: Method on class [racetrack.User] was used outside of a Grails application. If running in the context of a test using the mocking API or bootstrap Grails correctly.
+	at racetrack.UserSpec.testSimpleConstraints(UserSpec.groovy:34)
+	at racetrack.UserSpec.test something(UserSpec.groovy:22)
+
